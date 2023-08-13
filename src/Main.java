@@ -32,5 +32,13 @@ public class Main {
         } else {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
+        System.out.println("--------------------------");
+        System.out.println("Задача №3");
+        int year = 2016;
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
     }
 }
