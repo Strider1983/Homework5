@@ -19,5 +19,18 @@ public class Main {
         } else {
             System.out.println("Операционная система не выбрана");
         }
+        System.out.println("--------------------------");
+        System.out.println("Задача №2");
+        int clientDeviceOS = 1;
+        int clientDeviceYear = 2016;
+        if (clientDeviceOS == 0 && clientDeviceYear < 2015) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else if (clientDeviceOS == 1 && clientDeviceYear < 2015) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientDeviceOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
     }
 }
